@@ -1,0 +1,539 @@
+/* MISC. */
+.container-fluid{
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.other_tabs{
+  padding: 15px;
+}
+
+/* NAVBAR */
+.navbar{
+  margin-bottom: 0;
+  padding-left: 1.2em;
+}
+
+.navbar-brand{
+  margin-right: 1.2em;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+  padding-top: 0.5em;
+  font-size: 2.5em;
+  color: black;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav li a{
+  color: #777;
+  font-size: 1.6em;
+  margin-right: 1.2em;
+}
+
+.navbar-default .navbar-nav li a:focus{
+  background-color: white;
+  color: #777;
+}
+
+.navbar-default .navbar-nav li a:hover{
+  background-color: white;
+  color: #41B6E6;
+}
+
+.navbar-default .navbar-nav .active a{
+  background-color: white !important;
+  color: black;
+}
+
+.navbar-default .navbar-nav .active a:focus{
+  background-color: white;
+  color: black;
+}
+
+.navbar-default .navbar-nav .active a:hover{
+  background-color: white;
+  color: #41B6E6;
+}
+
+#nav-help-btn{
+  margin-right: 1em;
+  margin-left: 1.2em;
+  padding: 0;
+  border: none;
+  font-size: 1.6em;
+  color: #777;
+}
+
+#nav-help-btn:focus{
+  background-color: white;
+  color: #777;
+}
+
+#nav-help-btn:hover{
+  margin-right: 1em;
+  margin-left: 1.2em;
+  padding: 0;
+  border: none;
+  font-size: 1.6em;
+  color: #41B6E6;
+  background-color: white;
+}
+
+#nav-git-btn{
+  margin-top: 0.2em;
+  margin-right: 1em;
+  margin-left: 0.5em;
+  padding: 0;
+  border: none;
+  font-size: 2.5em;
+  color: #777;
+}
+
+#nav-git-btn:focus{
+  background-color: white;
+  color: #777;
+}
+
+#nav-git-btn:hover{
+  margin-top: 0.2em;
+  margin-right: 1em;
+  margin-left: 0.5em;
+  padding: 0;
+  border: none;
+  font-size: 2.5em;
+  color: #41B6E6;
+  background-color: white;
+}
+
+/* HOME TAB */
+#homeimg{
+  width: 100%;
+  object-fit: cover;
+  padding: 0;
+}
+
+#hometagline{
+  text-align: center;
+  font-size: 2.2em;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+#hometagdesc{
+  text-align: center;
+  font-size: 1.7em;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+}
+
+/* HOME & ABOUT TAB */
+.main-text{
+  font-size: 1.6em;
+}
+
+h2{
+  color: #003087;
+  font-weight: bold;
+}
+
+ul{
+  padding-left: 1.2em;
+}
+
+.text-body{
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+#df_logo{
+  width: 40%;
+}
+
+#nm_logo{
+  width: 40%;
+}
+
+.footer{
+  margin: 8em 5em 2em;
+  padding: 0;
+  text-align: center;
+}
+
+/* DESIGN TAB */
+.checkbox-inline{
+  font-size: 18px;
+}
+
+#dt_dose_labels{
+  font-size: 18px;
+}
+
+#dt_true_tox{
+  font-size: 18px;
+}
+
+#dt_prior_tox{
+  font-size: 18px;
+}
+
+#dt_simulate{
+  width: 100%;
+  background-color: #003087;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+#dt_simulate:hover{
+  width: 100%;
+  background-color: #1b9e77;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+#dt_results{
+  width: 100%;
+  background-color: #003087;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+#dt_results:hover{
+  width: 100%;
+  background-color: #7570b3;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+#dt_reset{
+  width: 100%;
+  background-color: #003087;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+#dt_reset:hover{
+  width: 100%;
+  background-color: #d95f02;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+/* DESIGN & CONDUCT TAB */
+p{
+  font-size: 18px;  
+}
+
+.control-label{
+  font-size: 18px;
+}
+
+.irs-min{
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.irs-max{
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.irs-single{
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.selectize-input{ 
+  font-size: 18px; 
+  line-height: 18px;
+}
+
+.selectize-dropdown{
+  font-size: 18px; 
+  line-height: 18px;
+}
+
+.help-p{
+  display: inline;
+}
+
+.help-btn{
+  background-color: #BCDBEA;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 50%;
+}
+
+.help-btn:hover{
+  background-color: #003087
+}
+
+/* CONDUCT TAB (enter data) */
+
+#ct_selectors{
+  font-size: 18px;
+}
+
+#ct_dose_labels{
+  font-size: 18px;
+}
+
+#ct_prior_tox{
+  font-size: 18px;
+}
+
+#ct_pid{
+  font-size: 18px;
+}
+
+.ct_checkbox{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#ct_add{
+  width: 100%;
+  background-color: #003087;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+#ct_add:hover{
+  width: 100%;
+  background-color: #1b9e77;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+#ct_remove{
+  width: 100%;
+  background-color: #003087;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+#ct_remove:hover{
+  width: 100%;
+  background-color: #d95f02;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+#ct_simulate{
+  width: 100%;
+  background-color: #003087;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+#ct_simulate:hover{
+  width: 100%;
+  background-color: #1b9e77;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+#ct_results{
+  width: 100%;
+  background-color: #003087;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+#ct_results:hover{
+  width: 100%;
+  background-color: #7570b3;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+#ct_reset{
+  width: 100%;
+  background-color: #003087;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+#ct_reset:hover{
+  width: 100%;
+  background-color: #d95f02;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+#ct_next_dose{
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  background-color: #41B6E6;
+  padding: 5px;
+  margin: 15px;
+  border-left-width: 10px;
+  border-left-style: solid;
+  border-left-color: #003087;
+}
+
+/* CONDUCT TAB (upload data)*/
+
+#ct_selectors_upload{
+  font-size: 18px;
+}
+
+#ct_dose_labels_upload{
+  font-size: 18px;
+}
+
+#ct_prior_tox_upload{
+  font-size: 18px;
+}
+
+.shiny-output-error-myClass {
+        font-size: 18px;
+        color: red;
+        font-weight: bold;
+      }
+
+#ct_download{
+  width: 100%;
+  background-color: #003087;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+#ct_download:hover{
+  width: 100%;
+  background-color: #1b9e77;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+#ct_file1{
+  width: 100%;
+  background-color: #003087;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+#ct_file1:hover{
+  width: 100%;
+  background-color: #d95f02;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+#ct_simulate_upload{
+  width: 100%;
+  background-color: #003087;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+#ct_simulate_upload:hover{
+  width: 100%;
+  background-color: #1b9e77;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+#ct_results_upload{
+  width: 100%;
+  background-color: #003087;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+#ct_results_upload:hover{
+  width: 100%;
+  background-color: #7570b3;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+#ct_reset_upload{
+  width: 100%;
+  background-color: #003087;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+#ct_reset_upload:hover{
+  width: 100%;
+  background-color: #d95f02;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+#ct_next_dose_upload{
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  background-color: #41B6E6;
+  padding: 5px;
+  margin: 15px;
+  border-left-width: 10px;
+  border-left-style: solid;
+  border-left-color: #003087;
+}
+
+/* ABOUT TAB */
+#about-top{
+  margin-top: 3em;
+}
+
+/* HELP TAB */
+.help-text{
+  padding: 2em;
+}
